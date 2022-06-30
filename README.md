@@ -2,18 +2,18 @@
 
 ### Conditions de bon fonctionnement
 
-    - Plus les questions ont d'options de réponse, moins l'algorithme est efficace
-    => Prioriser le nombre de questions au nombre d'options de réponses
+-   Plus les questions ont d'options de réponse, moins l'algorithme est efficace
+        => Prioriser le nombre de questions au nombre d'options de réponses
 
-    - Prévu pour plus de fillots que de parrains
+-   Prévu pour plus de fillots que de parrains
 
-    - Même questionnaire pour les parrains et les fillots
+-   Même questionnaire pour les parrains et les fillots
 
-    - Le CSV doit contenir une 1ère ligne et une 1ère colonne inutiles
-    => En export csv depuis google form, la 1ère ligne réitère les questions 
-    et la première colonne contient l'horodateur, on ne veut pas ces données
+-   Le CSV doit contenir une 1ère ligne et une 1ère colonne inutiles
+        => En export csv depuis google form, la 1ère ligne réitère les questions 
+        et la première colonne contient l'horodateur, on ne veut pas ces données
 
-    - Pas de virgules ni de saut de ligne dans les options de réponse
+-   Pas de virgules ni de saut de ligne dans les options de réponse
     
 ### Usage
 
