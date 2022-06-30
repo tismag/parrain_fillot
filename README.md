@@ -10,7 +10,8 @@
     - Même questionnaire pour les parrains et les fillots
 
     - Le CSV doit contenir une 1ère ligne et une 1ère colonne inutiles
-    => En export csv depuis google form, la 1ère ligne réitère les questions et la première colonne contient l'horodateur, on ne veut pas ces données
+    => En export csv depuis google form, la 1ère ligne réitère les questions 
+    et la première colonne contient l'horodateur, on ne veut pas ces données
 
     - Pas de virgules ni de saut de ligne dans les options de réponse
     
@@ -27,15 +28,14 @@ contenant chacun les réponses aux questionnaires des parrains et fillots.
 Horodateur,Prénom,Nom,Filière,Bringue ?,Êtes-vous alcoolique et pourquoi oui ?
 30/06/2022 16:15:58,Jean,JeanJean,JEAN,Non,Bonne question
 30/06/2022 17:06:39,Corinne,Frein,PRI,Non,Oui et ?
+...
+```
 
 Pour lancer l'exécution (sous Linux uniquement pour l'instant), exécuter la commande
 `cargo run <Nombre de questions type Informations personnelles dans le questionnaire>`
 
 Pour notre exemple le nombre à donner est 3 (Prénom, Nom, Filière)
 
-...
-```
-  
 ### Sortie du programme
 
 L'exécution du programme génère un fichier parrains_fillots.txt. Dans certains cas des parrains peuvent se retrouver sans fillots selon les réponses. Ce n'est pas un souci comme il est prévu de repasser sur les données en sortie pour adapter les résultats selon les éventuelles requêtes des parrains.
