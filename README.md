@@ -9,8 +9,9 @@
 
 -   Même questionnaire pour les parrains et les fillots
 
--   Le CSV doit contenir une 1ère ligne et une 1ère colonne inutiles
-        => En export csv depuis google form, la 1ère ligne réitère les questions 
+-   Le CSV doit contenir une 1ère ligne et une 1ère colonne inutiles (le programme se charge de les enlever)
+        => Il est prévu l'utilisation de Google Form pour le questionnaire.
+        En export csv depuis Google Form, la 1ère ligne réitère les questions 
         et la première colonne contient l'horodateur, on ne veut pas ces données
 
 -   Pas de virgules ni de saut de ligne dans les options de réponse
